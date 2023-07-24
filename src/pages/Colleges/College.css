@@ -1,0 +1,20 @@
+.college-card {
+      border: 5px solid black;
+      height: 400px;
+
+}
+
+/* .college-img{
+      position: absolute;
+} */
+.college-details {
+      /* width: 300px; */
+      border: 5px solid rgb(246, 239, 239);
+      border-radius: 20px;
+      position: relative;
+      background-color: rgb(246, 239, 239);
+      color: rgb(17, 18, 17);
+      bottom: 150px;
+      left: 250px;
+
+}

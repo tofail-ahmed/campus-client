@@ -1,0 +1,485 @@
+{
+      "colleges": [
+            {
+                  
+                  "college_image": "https://media.istockphoto.com/id/157505397/photo/quandrangle-lawn-at-the-university-of-washington.jpg?s=612x612&w=0&k=20&c=y1TIffgQaLN8AoxZCExNxl_wKoeMq9xIy3_kb8XY2Yg=",
+                  "college_name": "University of ABC",
+                  "admission_date": "2023-09-01",
+                  "admission_process":"College A follows a selective admissions process. Applicants are required to submit their high school transcripts, standardized test scores (SAT or ACT), letters of recommendation, and a personal statement. The admissions committee carefully reviews each application to select students based on academic achievements, extracurricular activities, and potential for success at the college. ",
+                  "events": [
+                        {
+                              "event_name": "Annual Cultural Fest",
+                              "event_date": "2023-11-15",
+                              "event_details": "A celebration of arts, music, and cultural diversity."
+                        },
+                        {
+                              "event_name": "Science and Technology Expo",
+                              "event_date": "2023-10-20",
+                              "event_details": "Showcasing innovations and cutting-edge technology."
+                        },
+                        {
+                              "event_name": "Sports Carnival",
+                              "event_date": "2023-12-05",
+                              "event_details": "A fun-filled sports event for students and staff."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "Pioneering research in various fields for over 50 years."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Leading research institute for scientific advancements."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Football",
+                              "other_facilities": "Sports Field"
+                        },
+                        {
+                              "sports_categories": "Cricket",
+                              "other_facilities": "Cricket Ground"
+                        },
+                        {
+                              "sports_categories": "Athletics",
+                              "other_facilities": "Athletics Track"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://www.tclf.org/sites/default/files/thumbnails/image/WA_Seattle_UniversityOfWashington_PuncturedBicycle_2007_Feature.jpg",
+                  "college_name": "XYZ Institute of Technology",
+                  "admission_date": "2023-09-05",
+                  "admission_process":"XYZ Institute of Technology uses a holistic admissions process. Applicants need to submit their academic transcripts, standardized test scores (SAT or ACT), letters of recommendation, and a personal essay. Additionally, they are encouraged to participate in extracurricular activities and showcase their passion for technology and innovation. The admissions committee evaluates each application comprehensively, considering both academic excellence and a demonstrated interest in technology. ",
+                  "events": [
+                        {
+                              "event_name": "Tech Expo",
+                              "event_date": "2023-11-25",
+                              "event_details": "Showcasing the latest technological innovations."
+                        },
+                        {
+                              "event_name": "Startup Fair",
+                              "event_date": "2023-10-30",
+                              "event_details": "Connecting startups with investors and mentors."
+                        },
+                        {
+                              "event_name": "Hackathon",
+                              "event_date": "2023-12-10",
+                              "event_details": "A coding competition to build innovative solutions."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "Conducts cutting-edge research in engineering and sciences."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Leading research institute for technology advancements."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Football",
+                              "other_facilities": "Sports Ground"
+                        },
+                        {
+                              "sports_categories": "Tennis",
+                              "other_facilities": "Tennis Court"
+                        },
+                        {
+                              "sports_categories": "Athletics",
+                              "other_facilities": "Athletics Track"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Morgan_Hall_of_Williams_College_in_the_fall_%2827_October_2010%29.jpg",
+                  "college_name": "ABC Medical College",
+                  "admission_date": "2023-08-30",
+                  "admission_process":"ABC Medical College follows a competitive admissions process. Prospective students must submit their academic records, scores from medical entrance exams (if applicable), letters of recommendation, and a personal statement outlining their interest in pursuing a medical career. Additionally, the college may conduct interviews as part of the selection process to assess the candidates' communication and interpersonal skills. ",
+                  "events": [
+                        {
+                              "event_name": "Medical Symposium",
+                              "event_date": "2023-10-15",
+                              "event_details": "A conference on advancements in medical science."
+                        },
+                        {
+                              "event_name": "Healthcare Expo",
+                              "event_date": "2023-11-05",
+                              "event_details": "Exhibition of healthcare products and services."
+                        },
+                        {
+                              "event_name": "Medical Camp",
+                              "event_date": "2023-12-20",
+                              "event_details": "Providing free medical check-ups to the community."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "Pioneering research in medical treatments and technologies."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Leading research institute for medical breakthroughs."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Cricket",
+                              "other_facilities": "Cricket Ground"
+                        },
+                        {
+                              "sports_categories": "Football",
+                              "other_facilities": "Sports Field"
+                        },
+                        {
+                              "sports_categories": "Badminton",
+                              "other_facilities": "Badminton Court"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://istiaque.live/wp-content/uploads/2021/10/Page_1551931382_OSM43VTB45.png",
+                  "college_name": "XYZ School of Arts",
+                  "admission_date": "2023-09-10",
+                  "admission_process":"XYZ School of Arts has a portfolio-based admissions process. Applicants are required to submit a portfolio showcasing their creative works and artistic abilities. The portfolio may include artwork, performances, writing samples, and other relevant creative endeavors. The admissions committee evaluates the portfolios to identify talented and passionate individuals with a strong commitment to the arts. ",
+                  "events": [
+                        {
+                              "event_name": "Artistic Showcase",
+                              "event_date": "2023-11-20",
+                              "event_details": "Exhibition of creative artworks by students and artists."
+                        },
+                        {
+                              "event_name": "Drama Festival",
+                              "event_date": "2023-10-25",
+                              "event_details": "Performances of theatrical plays and dramas."
+                        },
+                        {
+                              "event_name": "Art Workshop",
+                              "event_date": "2023-12-15",
+                              "event_details": "Hands-on workshops for different art forms."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "Innovative research in various art disciplines."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Leading institute for artistic research and experimentation."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Painting",
+                              "other_facilities": "Art Studios"
+                        },
+                        {
+                              "sports_categories": "Dance",
+                              "other_facilities": "Dance Studio"
+                        },
+                        {
+                              "sports_categories": "Creative Writing",
+                              "other_facilities": "Writing Center"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://news.belmont.edu/wp-content/uploads/2018/11/Fall_Stock_beautiful-campus.jpg",
+                  "college_name": "University of XYZ",
+                  "admission_date": "2023-09-01",
+                  "admission_process":" University of XYZ uses a unique admissions process that considers academic achievements and non-academic qualities equally. Applicants are required to submit their academic records, standardized test scores (SAT or ACT), and an essay expressing their personal and academic goals. The university also values leadership experiences, community service, and extracurricular activities, aiming to admit well-rounded individuals with diverse perspectives.",
+                  "events": [
+                        {
+                              "event_name": "Business Summit",
+                              "event_date": "2023-11-20",
+                              "event_details": "Bringing together business leaders for discussions."
+                        },
+                        {
+                              "event_name": "Entrepreneurship Fair",
+                              "event_date": "2023-10-15",
+                              "event_details": "Showcasing startups and entrepreneurial ventures."
+                        },
+                        {
+                              "event_name": "Leadership Conference",
+                              "event_date": "2023-12-10",
+                              "event_details": "A conference on effective leadership in the business world."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "Prominent business research institution."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Leading center for economic and market research."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Chess",
+                              "other_facilities": "Chess Club"
+                        },
+                        {
+                              "sports_categories": "Debate",
+                              "other_facilities": "Debate Club"
+                        },
+                        {
+                              "sports_categories": "Business Simulation",
+                              "other_facilities": "Business Simulation Lab"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://www.belmont.edu/_assets/img/home/headervideo-homepage.jpg",
+                  "college_name": "ABC School of Music",
+                  "admission_date": "2023-08-25",
+                  "admission_process":" ABC School of Music has a talent-based admissions process. Applicants are required to audition or submit recordings demonstrating their musical abilities. The school places significant emphasis on musical talent, passion, and potential. Academic qualifications and achievements are also considered, but the primary focus is on identifying gifted musicians.",
+                  "events": [
+                        {
+                              "event_name": "Music Festival",
+                              "event_date": "2023-10-10",
+                              "event_details": "A melodic celebration with performances and workshops."
+                        },
+                        {
+                              "event_name": "Music Workshop",
+                              "event_date": "2023-11-05",
+                              "event_details": "Workshops on different music genres and instruments."
+                        },
+                        {
+                              "event_name": "Battle of the Bands",
+                              "event_date": "2023-12-15",
+                              "event_details": "A competition among student music bands."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": false,
+                              "research_details":"The Role of Microorganisms in Soil Fertility and Nutrient Cycling"
+
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Leading institute for music education and research."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Singing",
+                              "other_facilities": "Recording Studio"
+                        },
+                        {
+                              "sports_categories": "Choir",
+                              "other_facilities": "Choir Room"
+                        },
+                        {
+                              "sports_categories": "Music Composition",
+                              "other_facilities": "Composition Studio"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://www.cnu.org/sites/default/files/styles/public_square_feature_image/public/BostonCollege1.jpg?itok=iKc35HST",
+                  "college_name": "University of Science and Technology",
+                  "admission_date": "2023-09-05",
+                  "admission_process":"University of Science and Technology follows a merit-based admissions process. Applicants need to submit their academic records, standardized test scores (SAT or ACT), and a statement of purpose outlining their interest in pursuing studies in science and technology. The university admits students with outstanding academic achievements and a genuine passion for scientific research and technological advancements. ",
+                  "events": [
+                        {
+                              "event_name": "Innovation Expo",
+                              "event_date": "2023-11-10",
+                              "event_details": "Showcasing groundbreaking innovations and projects."
+                        },
+                        {
+                              "event_name": "Research Symposium",
+                              "event_date": "2023-10-15",
+                              "event_details": "Presenting research findings from various disciplines."
+                        },
+                        {
+                              "event_name": "Tech Talks",
+                              "event_date": "2023-12-01",
+                              "event_details": "Guest lectures by technology experts and entrepreneurs."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "A leading hub for scientific research."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Conducts cutting-edge research in technology and science."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Robotics",
+                              "other_facilities": "Robotics Lab"
+                        },
+                        {
+                              "sports_categories": "Physics Olympics",
+                              "other_facilities": "Physics Lab"
+                        },
+                        {
+                              "sports_categories": "Engineering Design",
+                              "other_facilities": "Engineering Design Center"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://news.belmont.edu/wp-content/uploads/2019/07/The-Lawn.jpg",
+                  "college_name": "ABC College of Commerce",
+                  "admission_date": "2023-08-30",
+                  "admission_process":"ABC College of Commerce has a combination of academic qualifications and an entrance exam for admissions. Applicants must submit their academic records and may be required to take a college-specific entrance examination. The college assesses students based on their academic performance and potential to succeed in business-related fields. ",
+                  "events": [
+                        {
+                              "event_name": "Economic Forum",
+                              "event_date": "2023-10-15",
+                              "event_details": "Discussing economic challenges and opportunities."
+                        },
+                        {
+                              "event_name": "Business Conference",
+                              "event_date": "2023-11-10",
+                              "event_details": "Presentations by business leaders and experts."
+                        },
+                        {
+                              "event_name": "Entrepreneurship Summit",
+                              "event_date": "2023-12-05",
+                              "event_details": "Inspiring and educating aspiring entrepreneurs."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "Prominent institute for business and economic research."
+                        },
+                        {
+                              "research_history": false,
+                              "research_details": "Gender Representation in the Media: An Analysis of Advertising and its Impact on Society"
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Debate",
+                              "other_facilities": "Debate Club"
+                        },
+                        {
+                              "sports_categories": "Business Simulation",
+                              "other_facilities": "Business Simulation Lab"
+                        },
+                        {
+                              "sports_categories": "Marketing Competition",
+                              "other_facilities": "Marketing Lab"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://news.belmont.edu/wp-content/uploads/2018/11/Fall_Stock_beautiful-campus.jpg",
+                  "college_name": "XYZ School of Journalism",
+                  "admission_date": "2023-09-01",
+                  "admission_process":"XYZ School of Journalism follows an application and interview-based admissions process. Applicants need to submit their academic records, a writing sample, and a statement of purpose explaining their interest in journalism. Shortlisted candidates may be invited for interviews to assess their communication skills and passion for journalism. ",
+                  "events": [
+                        {
+                              "event_name": "Media Summit",
+                              "event_date": "2023-11-20",
+                              "event_details": "Bringing media professionals together to discuss trends."
+                        },
+                        {
+                              "event_name": "Journalism Conference",
+                              "event_date": "2023-10-25",
+                              "event_details": "Presenting journalism research and insights."
+                        },
+                        {
+                              "event_name": "Documentary Film Festival",
+                              "event_date": "2023-12-15",
+                              "event_details": "Screening thought-provoking documentary films."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "A leading institution for journalism research."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Conducts impactful research on media and communication."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "News Reporting",
+                              "other_facilities": "Newsroom"
+                        },
+                        {
+                              "sports_categories": "Radio Broadcasting",
+                              "other_facilities": "Radio Studio"
+                        },
+                        {
+                              "sports_categories": "Investigative Journalism",
+                              "other_facilities": "Investigative Reporting Center"
+                        }
+                  ]
+            },
+            {
+                  
+                  "college_image": "https://www.belmont.edu/_assets/img/home/headervideo-homepage.jpg",
+                  "college_name": "University of Health Sciences",
+                  "admission_date": "2023-08-25",
+                  "admission_process":"University of Health Sciences uses a rigorous admissions process for health-related programs. Applicants must submit their academic records, scores from medical entrance exams (if applicable), letters of recommendation, and a personal statement indicating their commitment to the healthcare field. Interviews and practical assessments may also be conducted to evaluate candidates' suitability for healthcare professions. ",
+                  "events": [
+                        {
+                              "event_name": "Medical Symposium",
+                              "event_date": "2023-10-10",
+                              "event_details": "Presentations on medical breakthroughs and research."
+                        },
+                        {
+                              "event_name": "Health and Wellness Expo",
+                              "event_date": "2023-11-05",
+                              "event_details": "Promoting healthy living and well-being."
+                        },
+                        {
+                              "event_name": "Medical Camp",
+                              "event_date": "2023-12-20",
+                              "event_details": "Providing free medical check-ups to the community."
+                        }
+                  ],
+                  "research_history": [
+                        {
+                              "research_history": true,
+                              "research_details": "Pioneering research in medical treatments and technologies."
+                        },
+                        {
+                              "research_history": true,
+                              "research_details": "Leading research institute for healthcare advancements."
+                        }
+                  ],
+                  "sports_details": [
+                        {
+                              "sports_categories": "Medicine Ball",
+                              "other_facilities": "Fitness Center"
+                        },
+                        {
+                              "sports_categories": "Nutrition Challenges",
+                              "other_facilities": "Nutrition Lab"
+                        },
+                        {
+                              "sports_categories": "Medical Research Symposium",
+                              "other_facilities": "Medical Research Center"
+                        }
+                  ]
+            }
+      ]
+}
