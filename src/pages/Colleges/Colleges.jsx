@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Colleges = () => {
       const [colleges, setColleges] = useState([]);
       useEffect(() => {
-            fetch('https://college-server-tofail-ahmed.vercel.app/colleges')
+            fetch('http://localhost:5000/colleges')
                   .then(res => res.json())
                   .then(data => {
 

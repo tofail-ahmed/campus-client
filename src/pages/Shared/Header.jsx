@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../Providers/AuthProvider';
 
 const Header = () => {
+      const { user, logOut } = useContext(AuthContext)
+
+
+      console.log(user);
+
+      const handleLogout = () => {
+            logOut()
+                  .then(() => { })
+                  .catch(error => console.log(error))
+
+      }
       return (
             <div>
                   <div className="navbar bg-slate-400">
@@ -25,13 +37,24 @@ const Header = () => {
                                     <li> <Link to={'/colleges'}>Colleges</Link></li>
                                     <li> <Link to={'/admission'}>Admission</Link></li>
                                     <li> <Link to={'/mycollege'}>My College</Link></li>
+                                    <li> <Link to={'/searchcollege'}>Search College</Link></li>
+
 
 
 
                               </ul>
                         </div>
                         <div className="navbar-end">
-                              <a className="btn">Button</a>
+                              {
+                                    user ? <>
+
+                                          <img className='w-[50px] border-4 me-4' style={{ borderRadius: "50%", height: "50px" }} title={user.displayName} src={user.photoURL} />
+                                          <p>{user.displayName}</p>
+                                          <button className='btn btn-error' onClick={handleLogout}>LogOut</button>
+                                          <Link>Profile</Link>
+                                    </>
+                                          : <Link className='text-md font-bold btn btn-info' to={'/login'}>  Login   </Link>
+                              }
                         </div>
                   </div>
             </div>

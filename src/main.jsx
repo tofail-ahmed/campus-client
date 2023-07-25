@@ -14,6 +14,9 @@ import MyCollege from './pages/My-College/MyCollege.jsx';
 import CollegeDetails from './pages/CollegeDetails/CollegeDetails.jsx';
 import AdmissionForm from './pages/AdmissionForm/AdmissionForm.jsx';
 import AuthProvider from './Providers/AuthProvider.jsx';
+import SearchCollege from './pages/SearchCollege/SearchCollege.jsx';
+import SignUp from './pages/SignUp/SignUp.jsx';
+import Login from './pages/Login/Login.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,12 +41,24 @@ const router = createBrowserRouter([
       {
         path:'/collegedetails/:id',
         element:<CollegeDetails></CollegeDetails>,
-        loader: ({ params }) => fetch(`https://college-server-tofail-ahmed.vercel.app/colleges/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.id}`)
       },
       {
         path:'/admissionForm/:id',
         element:<AdmissionForm></AdmissionForm>,
-        loader: ({ params }) => fetch(`https://college-server-tofail-ahmed.vercel.app/colleges/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.id}`)
+      },
+      {
+        path:'/searchcollege',
+        element:<SearchCollege></SearchCollege>
+      },
+      {
+        path:'/signup',
+        element:<SignUp></SignUp>
+      },
+      {
+        path:'/login',
+        element:<Login></Login>
       }
     ]
   },
