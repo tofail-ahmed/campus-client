@@ -13,6 +13,7 @@ import Admission from './pages/Admission/Admission.jsx';
 import MyCollege from './pages/My-College/MyCollege.jsx';
 import CollegeDetails from './pages/CollegeDetails/CollegeDetails.jsx';
 import AdmissionForm from './pages/AdmissionForm/AdmissionForm.jsx';
+import AuthProvider from './Providers/AuthProvider.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,12 +38,12 @@ const router = createBrowserRouter([
       {
         path:'/collegedetails/:id',
         element:<CollegeDetails></CollegeDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.id}`)
+        loader: ({ params }) => fetch(`https://college-server-tofail-ahmed.vercel.app/colleges/${params.id}`)
       },
       {
         path:'/admissionForm/:id',
         element:<AdmissionForm></AdmissionForm>,
-        loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.id}`)
+        loader: ({ params }) => fetch(`https://college-server-tofail-ahmed.vercel.app/colleges/${params.id}`)
       }
     ]
   },
@@ -50,8 +51,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <div className='md:px-24 bg-slate-300'>
+    <AuthProvider>
+      <div className='md:px-24 bg-slate-300'>
    <RouterProvider router={router} />
    </div>
+    </AuthProvider>
   </React.StrictMode>,
 )

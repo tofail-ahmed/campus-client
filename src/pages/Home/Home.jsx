@@ -9,7 +9,7 @@ const Home = () => {
 
       const handleSearch = async () => {
             try {
-                  const response = await fetch(`http://localhost:5000/colleges/search/${encodeURIComponent(searchTerm)}`);
+                  const response = await fetch(`https://college-server-tofail-ahmed.vercel.app/colleges/search/${encodeURIComponent(searchTerm)}`);
                   const data = await response.json();
                   setSearchResults(data);
             } catch (error) {
@@ -27,7 +27,7 @@ const Home = () => {
             }
       }
       useEffect(() => {
-            fetch('http://localhost:5000/colleges').then(res => res.json()).then(data => {
+            fetch('https://college-server-tofail-ahmed.vercel.app/colleges').then(res => res.json()).then(data => {
                   setSearchResults(data)
             })
       }, [])
