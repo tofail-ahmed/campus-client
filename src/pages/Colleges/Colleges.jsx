@@ -15,8 +15,8 @@ const Colleges = () => {
       console.log(colleges);
       return (
             <div>
-
-                  <h2 className=''>This is Colleges</h2>
+                  <h1 className='text-6xl text-center my-24'>{colleges.length === 0 ? "Loading..." : ' '}</h1>
+                 
                   <div >
                         {
                               colleges.map(college =>

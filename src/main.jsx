@@ -17,6 +17,7 @@ import AuthProvider from './Providers/AuthProvider.jsx';
 import SearchCollege from './pages/SearchCollege/SearchCollege.jsx';
 import SignUp from './pages/SignUp/SignUp.jsx';
 import Login from './pages/Login/Login.jsx';
+import Profile from './pages/Profile/Profile.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path:'/login',
         element:<Login></Login>
+      },
+      {
+        path:'/profile',
+        element:<Profile></Profile>
       }
     ]
   },

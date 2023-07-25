@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import { AuthContext } from '../../Providers/AuthProvider';
 
 const AdmissionForm = () => {
+      const {user}=useContext(AuthContext);
+      console.log(user);
       const { _id, college_name, admission_process, admission_date, events, research_history, sports_details, college_image } = useLoaderData();
       const [name, setName] = useState('');
       const [email, setEmail] = useState('');
@@ -26,13 +29,13 @@ const AdmissionForm = () => {
 
             // Handle form submission logic here
             const userData = {
-                  name: name,
-                  email: email,
+                  name: user?.displayName,
+                  email: user?.email,
                   phone: phone,
                   subject: subject,
                   address: address,
                   dateOfBirth: dateOfBirth,
-                  image: image,
+                  image: user?.photoURL,
                   college: `${college_name}`
             };
             console.log(userData);
