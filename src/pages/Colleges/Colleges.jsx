@@ -20,7 +20,9 @@ const Colleges = () => {
                   <div >
                         {
                               colleges.map(college =>
-                                    <div className='college-card md:flex' key={college._id}>
+                                    <div key={college._id}>
+                                          <h1 className='text-3xl text-center font-bold mt-8 text-[#3d583d]'>{college.college_name}</h1>
+                                          <div className='college-card md:flex' >
                                           <div className='m-8'>
                                                 <img className=' w-[500px] h-[400px] rounded-md' src={college.college_image} alt="" />
                                                 <Link className="btn btn-outline border-b-4 bg-slate-400 w-[150px] my-4" to={`/collegedetails/${college._id}`}>
@@ -28,8 +30,7 @@ const Colleges = () => {
                                                 </Link>
                                           </div>
 
-                                          <div className='college-details w-[500px] m-8 flex flex-col justify-center'>
-                                                <h1 className=''>{college.college_name}</h1>
+                                                <div className='college-details w-[500px] m-8 flex flex-col justify-center'>
                                                 <h1 className=''>Admission process: {college.admission_process}</h1>
                                                 <h1 className=''>Admission Date: {college.admission_date}</h1>
                                                 <div>
@@ -75,6 +76,7 @@ const Colleges = () => {
                                                 
                                           </div>
 
+                                    </div>
                                     </div>
 
                               )

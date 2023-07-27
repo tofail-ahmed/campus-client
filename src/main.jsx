@@ -18,6 +18,7 @@ import SearchCollege from './pages/SearchCollege/SearchCollege.jsx';
 import SignUp from './pages/SignUp/SignUp.jsx';
 import Login from './pages/Login/Login.jsx';
 import Profile from './pages/Profile/Profile.jsx';
+import UpdateProfile from './pages/UpdateProfile/UpdateProfile.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -64,6 +65,11 @@ const router = createBrowserRouter([
       {
         path:'/profile',
         element:<Profile></Profile>
+      },
+      {
+        path: '/updateprofile/:id',
+        element: <UpdateProfile></UpdateProfile>,
+        loader: ({ params }) => fetch(`http://localhost:5000/user/${params.id}`)
       }
     ]
   },

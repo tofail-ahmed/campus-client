@@ -27,6 +27,8 @@ const Header = () => {
                                           <li> <Link to={'/colleges'}>Colleges</Link></li>
                                           <li> <Link to={'/admission'}>Admission</Link></li>
                                           <li> <Link to={'/mycollege'}>My College</Link></li>
+                                          <li> <Link to={'/searchcollege'}>Search College</Link></li>
+
                                     </ul>
                               </div>
                               <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
@@ -38,10 +40,6 @@ const Header = () => {
                                     <li> <Link to={'/admission'}>Admission</Link></li>
                                     <li> <Link to={'/mycollege'}>My College</Link></li>
                                     <li> <Link to={'/searchcollege'}>Search College</Link></li>
-
-
-
-
                               </ul>
                         </div>
                         <div className="navbar-end">
@@ -50,10 +48,10 @@ const Header = () => {
 
                                           {/* <img className='w-[50px] border-4 me-4' style={{ borderRadius: "50%", height: "50px" }} title={user.displayName} src={user.photoURL} />
                                           <p>{user.displayName}</p> */}
-                                          <button className='text-orange-400 bg-slate-600 px-4 py-2 rounded-md me-2 font-semibold' onClick={handleLogout}>LogOut</button>
-                                          <Link className='text-slate-400 bg-slate-600 px-4 py-2 rounded-md font-semibold' to={'/profile'}>Profile</Link>
+                                          <button className='text-orange-400 bg-slate-600 hover:bg-slate-800 px-4 py-2 rounded-md me-2 font-semibold' onClick={handleLogout}>LogOut</button>
+                                          <Link className='text-slate-400 bg-slate-600 hover:bg-slate-800 px-4 py-2 rounded-md font-semibold' to={'/profile'}>Profile</Link>
                                     </>
-                                          : <Link className='text-green-400 bg-slate-600 px-4 py-2 rounded-md' to={'/login'}>  Login   </Link>
+                                          : <Link className='text-green-400 bg-slate-600 hover:bg-slate-800 px-4 py-2 rounded-md' to={'/login'}>  Login   </Link>
                               }
                         </div>
                   </div>

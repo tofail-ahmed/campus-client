@@ -47,6 +47,7 @@ const SearchCollege = () => {
                   />
                   <button className='btn btn-outline border-b-4 ms-4' onClick={handleSearch}>Search</button>
                   <h1 className='text-2xl font-semibold my-4 text-slate-600'>Available Colleges</h1>
+                  <h2 className='text-4xl text-center'>{searchResults.length === 0 ? 'Loading...' : ""}</h2>
 
                   <ul className='md:grid grid-cols-2 my-8 mx-4'>
                         {searchResults.map((college) => (
