@@ -66,12 +66,12 @@ const SignUp = () => {
       
 
       return (
-            <div>
+            <div className='my-12'>
 
                  
                   <div className="flex items-center justify-center min-h-screen  bg-transparent">
                         <div className="bg-white w-[500px] shadow-md rounded-md p-8">
-                              <h2 className="text-2xl font-bold mb-4">Sign up</h2>
+                              <h2 className="text-2xl font-bold mb-4 text-center">Sign up</h2>
                               <form onSubmit={handleSignup}>
                                     <div className="mb-4">
                                           <label htmlFor="name" className="block font-medium mb-1">Name</label>
@@ -135,6 +135,7 @@ const SignUp = () => {
                               </div>
                         </div>
                   </div>
+                  <h1 className='text-red-600 text-lg font-semibold text-center' >Attention!!! Please be informed that the data provided during the sign-up process is non-editable.</h1>
                   </div>
 
                   )

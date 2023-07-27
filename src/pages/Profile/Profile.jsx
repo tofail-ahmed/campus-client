@@ -10,12 +10,13 @@ const Profile = () => {
             fetch(`http://localhost:5000/users/${user?.email}`).then(res => res.json()).then(data => {
                   setUserData(data)
             })
-      }, [])
+      }, [user?.email])
       console.log(userData._id);
 
       return (
             <div className='md:flex flex-row-reverse justify-between '>
                   <div className='text-center my-4'>
+                        <h1>{userData ? userData.email : "Data Laoding..."}</h1>
                         <Link  to={`/updateprofile/${userData._id}`} className='btn btn-outline px-4 py-2 bg-slate-600 hover:bg-slate-700 border-b-4 text-slate-200'>Edit Info</Link>
                   </div>
                   <div className='md:flex md:w-[600px] mx-auto my-24' >
