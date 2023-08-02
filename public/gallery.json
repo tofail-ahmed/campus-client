@@ -1,0 +1,85 @@
+{
+      "data": [
+        {
+          "_id": "1",
+          "title": "Proud Graduate",
+          "details": "A beaming graduate in a cap and gown, holding a diploma with a sense of accomplishment and pride.",
+          "date": "2023-06-10",
+          "image": "https://mitphotography.ca/wp-content/uploads/2021/05/DAL-Graduation-group-photo_MIT1990-1.jpg",
+          "college_name": "Example University"
+        },
+        {
+          "_id": "2",
+          "title": "Friends Forever",
+          "details": "A group of friends, all graduates, throwing their caps in the air with big smiles on their faces.",
+          "date": "2023-05-28",
+          "image": "https://www.lancaster.ac.uk/media/lancaster-university/content-assets/images/home-page/graduation-group-feature-box-600x350.jpg",
+          "college_name": "Sample College"
+        },
+        {
+          "_id": "3",
+          "title": "Family Celebration",
+          "details": "A heartwarming moment as the graduate is surrounded by their family, all cheering and celebrating the achievement.",
+          "date": "2023-06-02",
+          "image": "https://www.lancaster.ac.uk/media/lancaster-university/content-assets/images/graduation/GroupJazzhands600x350.jpg",
+          "college_name": "Graduate Institute"
+        },
+        {
+          "_id": "4",
+          "title": "Academic Excellence",
+          "details": "A close-up of the graduate's honors and awards, showcasing their academic achievements.",
+          "date": "2023-05-15",
+          "image": "https://i.dailymail.co.uk/1s/2020/03/27/11/26483094-0-image-a-5_1585310154552.jpg",
+          "college_name": "Success University"
+        },
+        {
+          "_id": "5",
+          "title": "Cap Toss",
+          "details": "A candid shot of the graduates tossing their caps in the air, capturing the joyous atmosphere of the ceremony.",
+          "date": "2023-06-05",
+          "image": "https://www.chinadaily.com.cn/photo/images/attachement/jpg/site1/20130523/0023ae9885da1307d26d16.jpg",
+          "college_name": "Achievement College"
+        },
+        {
+          "_id": "6",
+          "title": "Future Beginnings",
+          "details": "A thoughtful shot of the graduate gazing into the distance, symbolizing the new opportunities that lie ahead.",
+          "date": "2023-06-12",
+          "image": "https://cdn.create.vista.com/api/media/medium/258235102/stock-photo-happy-group-students-graduation-gowns?token=",
+          "college_name": "Dream University"
+        },
+        {
+          "_id": "7",
+          "title": "Alumni Pride",
+          "details": "A picture of the graduate proudly wearing their alma mater's graduation stole, ready to embrace their new alumni status.",
+          "date": "2023-06-18",
+          "image": "https://media.istockphoto.com/id/482362583/photo/multi-ethnic-friends-excitedly-hold-diplomas-after-college-graduation.jpg?s=612x612&w=0&k=20&c=0u-Jm_50Rtdwl5n8vMZ-ROfxEg-BCSmg3ZKJJ_w5CWY=",
+          "college_name": "Future College"
+        },
+        {
+          "_id": "8",
+          "title": "Graduation Embrace",
+          "details": "A heartfelt moment as the graduate hugs their favorite professor, expressing gratitude for their guidance.",
+          "date": "2023-05-30",
+          "image": "https://cdn-ajggd.nitrocdn.com/kMoOFpDlsOVtlYJLrnSRNCQXaUFHZPTY/assets/images/optimized/rev-814242f/wp-content/uploads/2022/12/graduation-pictures-pavel-danilyuk.jpeg",
+          "college_name": "Prospect Institute"
+        },
+        {
+          "_id": "9",
+          "title": "Diploma in Hand",
+          "details": "A close-up shot of the graduate proudly holding their diploma, capturing the culmination of years of hard work.",
+          "date": "2023-06-08",
+          "image": "https://news.mit.edu/sites/default/files/images/202205/MIT-Comm22-GE-01-press.jpg",
+          "college_name": "Success Academy"
+        },
+        {
+          "_id": "10",
+          "title": "Future Leaders",
+          "details": "A group photo of graduates, all ready to step into the world and make a positive impact as future leaders.",
+          "date": "2023-06-20",
+          "image": "https://commencement.mit.edu/sites/default/files/2022-06/AG023724%20copy%202.jpg",
+          "college_name": "Vision University"
+        }
+      ]
+    }
+    

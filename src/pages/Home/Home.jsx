@@ -1,4 +1,6 @@
 import CollegeGallery from "../../Components/CollegeGallery/CollegeGallery";
+import FeatureColleges from "../../Components/FeatureColleges/FeatureColleges";
+import Review from "../../Components/Review/Review";
 
 
 const Home = () => {
@@ -6,8 +8,9 @@ const Home = () => {
 
       return (
             <div>
-                  <h1>This is home</h1>
+                  <FeatureColleges></FeatureColleges>
                   <CollegeGallery></CollegeGallery>
+                  <Review></Review>
 
             </div>
       );

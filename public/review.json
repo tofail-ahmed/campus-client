@@ -1,0 +1,63 @@
+[
+      {
+        "_id": "id001",
+        "review": "I had a wonderful time at ABC University. The professors were supportive, and the campus was vibrant with activities. The facilities were top-notch, and I made friends for a lifetime. The college truly prepared me for my future.",
+        "college": "ABC University",
+        "user": "John Doe"
+      },
+      {
+        "_id": "id002",
+        "review": "XYZ College provided an exceptional learning environment. The faculty was dedicated, and the diverse courses allowed me to explore my interests. The career services were outstanding, helping me secure internships and networking opportunities.",
+        "college": "XYZ College",
+        "user": "Jane Smith"
+      },
+      {
+        "_id": "id003",
+        "review": "My experience at 123 Institute was enriching. The professors were knowledgeable, and I enjoyed the research opportunities. The campus community was welcoming, and I developed crucial skills for my career.",
+        "college": "123 Institute",
+        "user": "Michael Johnson"
+      },
+      {
+        "_id": "id004",
+        "review": "PQR University was a memorable journey. The extracurriculars made my college life exciting. The professors were approachable, and the career guidance was beneficial for my job search.",
+        "college": "PQR University",
+        "user": "Emily Davis"
+      },
+      {
+        "_id": "id005",
+        "review": "LMN College exceeded my expectations. The modern facilities and labs were impressive. The professors were exceptional mentors, and the campus was picturesque. I made lasting friendships during my time here.",
+        "college": "LMN College",
+        "user": "Robert Wilson"
+      },
+      {
+        "_id": "id006",
+        "review": "EFG Institute was a place of growth. The staff was supportive, and the courses were challenging. The internship opportunities helped me gain valuable experience in my field.",
+        "college": "EFG Institute",
+        "user": "Sophia Lee"
+      },
+      {
+        "_id": "id007",
+        "review": "GHI University provided a transformational experience. The internship programs opened doors for my career. The campus was vibrant, and the college events were enjoyable.",
+        "college": "GHI University",
+        "user": "William Brown"
+      },
+      {
+        "_id": "id008",
+        "review": "JKL College offered an exceptional college life experience. The professors were caring mentors, and the campus was energetic with events. The inclusive environment fostered strong bonds among students.",
+        "college": "JKL College",
+        "user": "Olivia Taylor"
+      },
+      {
+        "_id": "id009",
+        "review": "MNO Institute played a significant role in my development. The professors were supportive, and the research opportunities were valuable. The college's seminars with industry experts were eye-opening.",
+        "college": "MNO Institute",
+        "user": "Daniel Martinez"
+      },
+      {
+        "_id": "id010",
+        "review": "STU University has a special place in my heart. The professors were inspiring mentors, and the campus was vibrant with cultural events. Graduating from STU University was a proud moment for me.",
+        "college": "STU University",
+        "user": "Ava Anderson"
+      }
+    ]
+    

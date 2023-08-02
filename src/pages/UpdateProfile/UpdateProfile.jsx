@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const UpdateProfile = () => {
       const { _id, name, email, phone, subject, address, college } = useLoaderData();
       console.log(name, email, phone);
-
+      const navigate = useNavigate()
       const handleUpdate = (e) => {
             e.preventDefault();
             const form = e.target;
@@ -20,7 +20,7 @@ const UpdateProfile = () => {
                   college
             }
             console.log(updatedUser);
-            fetch(`http://localhost:5000/user/${_id}`, {
+            fetch(`https://college-server-tofail-ahmed.vercel.app/user/${_id}`, {
                   method: "PUT",
                   headers: {
                         "content-type": "application/json"
@@ -32,7 +32,7 @@ const UpdateProfile = () => {
                         console.log(data);
                         if (data.modifiedCount > 0) {
                               alert("Updated successfully")
-
+                              navigate('/profile')
                         }
                   })
 

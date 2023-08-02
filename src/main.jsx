@@ -19,6 +19,7 @@ import SignUp from './pages/SignUp/SignUp.jsx';
 import Login from './pages/Login/Login.jsx';
 import Profile from './pages/Profile/Profile.jsx';
 import UpdateProfile from './pages/UpdateProfile/UpdateProfile.jsx';
+import PrivateRoute from './Components/Privateroute/PrivateRoute.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -43,12 +44,12 @@ const router = createBrowserRouter([
       {
         path:'/collegedetails/:id',
         element:<CollegeDetails></CollegeDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.id}`)
+        loader: ({ params }) => fetch(`https://college-server-tofail-ahmed.vercel.app/colleges/${params.id}`)
       },
       {
         path:'/admissionForm/:id',
-        element:<AdmissionForm></AdmissionForm>,
-        loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.id}`)
+        element: <PrivateRoute><AdmissionForm></AdmissionForm></PrivateRoute>,
+        loader: ({ params }) => fetch(`https://college-server-tofail-ahmed.vercel.app/colleges/${params.id}`)
       },
       {
         path:'/searchcollege',
@@ -64,12 +65,12 @@ const router = createBrowserRouter([
       },
       {
         path:'/profile',
-        element:<Profile></Profile>
+        element: <PrivateRoute><Profile></Profile></PrivateRoute>
       },
       {
         path: '/updateprofile/:id',
-        element: <UpdateProfile></UpdateProfile>,
-        loader: ({ params }) => fetch(`http://localhost:5000/user/${params.id}`)
+        element: <PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>,
+        loader: ({ params }) => fetch(`https://college-server-tofail-ahmed.vercel.app/user/${params.id}`)
       }
     ]
   },
