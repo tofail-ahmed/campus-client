@@ -4,7 +4,7 @@ const Review = () => {
       const [reviews, setReviews] = useState([]);
       const [showAll, setShowAll] = useState(false);
       useEffect(() => {
-            fetch(`/public/review.json`).then(res => res.json()).then(data => {
+            fetch(`https://college-server-tofail-ahmed.vercel.app/reviews`).then(res => res.json()).then(data => {
                   setReviews(data)
             })
       }, [])

@@ -5,11 +5,11 @@ const CollegeGallery = () => {
       const [showAll, setShowAll] = useState(false);
 
       useEffect(() => {
-            fetch('/public/gallery.json')
+            fetch('https://college-server-tofail-ahmed.vercel.app/gallerys')
                   .then(res => res.json())
                   .then(data => {
-                        setPictures(data.data);
-                        //   console.log(data.data);
+                        setPictures(data[0].data);
+                        console.log(data[0].data);
                   });
       }, []);
 
@@ -22,9 +22,13 @@ const CollegeGallery = () => {
       };
 
       const displayedPictures = showAll ? pictures : pictures.slice(0, 3);
+      if (pictures.length === 0) {
+            return <div>Loading...</div>; // You can show a loading state here
+      }
 
       return (
             <div className='my-12'>
+
                   <h1 className='text-center mx-auto mt-12 mb-8 text-4xl font-bold text-slate-600 bg-slate-400 rounded-e-xl border-s-8 border-slate-800 py-4 px-8 md:w-fit'>Graduation Party Gallery</h1>
 
                   <div className='md:grid grid-cols-3 gap-12'>
